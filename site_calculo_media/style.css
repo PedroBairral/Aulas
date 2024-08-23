@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70vw;
+    height: 80vh;
+    background-color: rgb(129, 129, 129);
+
+    margin: 10vh auto;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 25px;
+    border: none;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(163, 0, 0);
+}
+
+input{
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 25px;
+    border: 0,5 solid rgb(196, 196, 196);
+}
